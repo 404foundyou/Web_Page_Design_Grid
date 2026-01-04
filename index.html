@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main{
+            background: #725d5d;
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+        }
+        .nav{
+            grid-column: 1/13;
+            grid-row:1/2;
+            background: #a53535;
+        }
+        .sidebar{
+            background-color: aquamarine;
+            grid-row: span 10;
+            grid-column: span 3;
+
+        }
+        .footer{
+            grid-row: 12/12;
+            grid-column: 1/13;
+            background-color: #36cd5b;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            
+        </div>
+        <div class="sidebar">
+
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>
